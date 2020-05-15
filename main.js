@@ -70,7 +70,6 @@ function convertSimplifiedTopoToDot(topo) {
 					// to
 					if (openTopic != null) {
 						outside.push(`"${openTopic}" -> "${linkedName}";`);
-						openTopic = null;
 					}
 					topics.add(linkedName);
 				}
